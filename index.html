@@ -1,10 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Our Home Ganpati Live 24/7 </title>
-  <meta http-equiv="refresh" content="0; url=https://youtube.com/live/ExmIIq-NN7w?feature=share">
+  <title>Ganpati Live</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #111 0%, #000 70%);
+      height: 100vh;
+      overflow: hidden;
+      color: white;
+    }
+
+    .container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .player {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 90vw;
+      height: 90vh;
+      transform: translate(-50%, -50%);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 0 60px rgba(255, 140, 0, 0.4);
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 12px 24px;
+      background: rgba(255, 140, 0, 0.15);
+      backdrop-filter: blur(10px);
+      border-radius: 50px;
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 15px;
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+
+  </style>
 </head>
 <body>
-  <p>Redirecting... <a href="https://youtube.com/live/ExmIIq-NN7w?feature=share">Click here</a> if not redirected.</p>
+
+  <div class="container">
+    
+    <div class="overlay">
+      🪔 Ganpati Bappa Live Darshan
+    </div>
+
+    <div class="player">
+      <iframe 
+        src="https://www.youtube.com/embed/live_stream?channel=UCfzlY8tDPsqAmP5jJ1RafnQ&autoplay=1&modestbranding=1&controls=1&rel=0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="footer">
+      Ganpati Bappa Morya 🙏
+    </div>
+
+  </div>
+
 </body>
 </html>
